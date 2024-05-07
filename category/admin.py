@@ -7,3 +7,5 @@ class CategoryAdmin(admin.ModelAdmin):
     list_display = ('category_name', 'slug')
 
 admin.site.register(models.Category, CategoryAdmin)
+
+# admin
