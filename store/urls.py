@@ -8,4 +8,4 @@ urlpatterns = [
     path('submit_review/<int:product_id>/', views.submit_review, name='submit_review'),
 ]
 
-# urls
+# urls py
