@@ -147,7 +147,7 @@ def place_order(request, total=0, quantity=0,):
     else:
         return render(request, 'orders/payments.html')
 
-
+# views 
 def order_complete(request):
     order_number = request.GET.get('order_id')
     transID = request.GET.get('transaction_id')
