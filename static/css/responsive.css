@@ -1,7 +1,7 @@
 .mobile-block {
   display: none;
 }
-
+ /* Responsive css */
 @media (max-width: 1200px) {
   /* tablet devices */
 }
