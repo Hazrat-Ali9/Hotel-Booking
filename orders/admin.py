@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import Payment, Order, OrderProduct, PaymentGatewaySettings
 # Register your models here.
-
+# admin panel
 
 class OrderProductInline(admin.TabularInline):
     model = OrderProduct
