@@ -33,7 +33,7 @@ def store(request, category_slug=None):
         paged_products = paginator.get_page(page)
         
         product_count = products.count()
-
+# views
     context = {
         'products': paged_products,
         'p_count': product_count,
