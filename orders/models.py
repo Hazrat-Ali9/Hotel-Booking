@@ -1,7 +1,7 @@
 from django.db import models
 from accounts.models import Account
 from store.models import Product
-
+# models
 class Payment(models.Model):
     user = models.ForeignKey(Account, on_delete=models.CASCADE)
     payment_id = models.CharField(max_length=100)
