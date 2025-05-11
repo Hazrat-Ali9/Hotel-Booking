@@ -2,7 +2,7 @@
 .rate > input{
   display: none;
 }
-
+/* Custom css */
 .rate{
   display: inline-block;;
   border: 0;
