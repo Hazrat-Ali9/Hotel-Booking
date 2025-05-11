@@ -5,7 +5,7 @@ from django.contrib.auth.decorators import login_required  # Import the login_re
 from django.http import HttpResponse, JsonResponse
 from sslcommerz_lib import SSLCOMMERZ
 from .models import PaymentGatewaySettings
-
+# ssl 
 def unique_trangection_id_generator(size=10, chars=string.ascii_uppercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
