@@ -1,6 +1,6 @@
 from django import forms
 from .models import Account, UserProfile
-
+# From Account
 class RegistrationForm(forms.ModelForm):
     password = forms.CharField(widget=forms.PasswordInput(attrs={
         'placeholder': 'Enter Password',
