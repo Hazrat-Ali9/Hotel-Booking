@@ -8,4 +8,4 @@ class CategoryAdmin(admin.ModelAdmin):
 
 admin.site.register(models.Category, CategoryAdmin)
 
-# admin
+# admin panel
