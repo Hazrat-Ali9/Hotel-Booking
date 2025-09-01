@@ -6,4 +6,4 @@ class ReviewForm(forms.ModelForm):
         model = ReviewRating
         fields = ['subject', 'review', 'rating']
 
-# From py
+# froms py
